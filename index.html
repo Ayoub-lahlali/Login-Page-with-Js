@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <button class="show">Login</button>
+        <div class="content hide">
+            <span class="closeBtn">
+                <i class="fa-solid fa-xmark" style="color: #fff;"></i>
+            </span>
+            <div class="login loginPart">
+                <h2 class="title">Login</h2>
+                <form action="#">
+                    <div class="inputBox">
+                        <span class="icon"><i class="fa-solid fa-envelope" style="color: #200a35;"></i></span>
+                        <input type="email" required>
+                        <label for="#">Email</label>
+                    </div>
+                    <div class="inputBox">
+                        <span class="icon"><i class="fa-solid fa-lock" style="color: #200a35;"></i></span>
+                        <input type="password" required>
+                        <label>Password</label>
+                    </div>
+                    <div class="remeberForget">
+                        <label><input type="checkbox">Remeber me</label>
+                        <a href="#">Forgot Password ?</a>
+                    </div>
+                    <button type="submit" class="btn">Login</button>
+                    <div class="register">
+                        <p>Don't have an account ?<a href="#" class="registerBtn">Register</a></p>
+                    </div>
+    
+                </form>
+            </div>
+
+            <div class="login registerPart">
+                <h2 class="title">Registration</h2>
+                <form action="#">
+                    <div class="inputBox">
+                        <span class="icon"><i class="fa-solid fa-user" style="color: #200a35;"></i></span>
+                        <input type="text" required>
+                        <label for="#">Username</label>
+                    </div>
+                    <div class="inputBox">
+                        <span class="icon"><i class="fa-solid fa-envelope" style="color: #200a35;"></i></span>
+                        <input type="email" required>
+                        <label for="#">Email</label>
+                    </div>
+                    <div class="inputBox">
+                        <span class="icon"><i class="fa-solid fa-lock" style="color: #200a35;"></i></span>
+                        <input type="password" required>
+                        <label>Password</label>
+                    </div>
+                    <div class="remeberForget">
+                        <label><input type="checkbox">I agree to the terms & condations</label>
+                    </div>
+                    <button type="submit" class="btn">Register</button>
+                    <div class="register">
+                        <p>Already have an account ?<a href="#" class="loginBtn">Login</a></p>
+                    </div>
+    
+                </form>
+            </div>
+
+        </div>
+
+
+
+    </div>
+    
+    
+    <script src="script.js"></script>
+</body>
+</html>
